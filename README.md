@@ -1,0 +1,2 @@
+# Creating-a-Jargon-Dictionary-from-2-Corpora
+Identifying potential jargon by comparing two document corpora. One is related to news and the other is from government document. This is done by first identifying the word distributions in the Reuters base corpus. For a jargon corpus the DOD OIG reports were used.   Both corpora were tokenized and saved in sets. Then, the differences in tokens calculated.  The probability of tokens occurring was calculated in each corpus as a mechanism to evaluate which tokens might be jargon.
